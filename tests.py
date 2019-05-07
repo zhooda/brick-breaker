@@ -42,13 +42,13 @@ testPlayer.setPos(WIDTH/2 - testPlayer.getWidth()/2, HEIGHT - 50)
 
 ball = box(10, 10, WIDTH/2 - 5, testPlayer.getY() - 20)
 
-brick = box(80, 40, 10, HEIGHT/2)
+brick = box(100, 50, 10, HEIGHT/2)
 
-# brickArray = []
+brickArray = []
 
-# # brick array
-# for i in range(8):
-#     brickArray.append(box(80, 40, 10 + 80*(i+1), HEIGHT/2))
+# brick array
+for i in range(8):
+    brickArray.append(box(100, 40))
 
 # --CODE STARTS HERE-- #
 running = True
@@ -63,8 +63,6 @@ while running:
 
     pressedKeys = pygame.key.get_pressed()
     screen.fill(BLACK)
-
-
 
 
     ball.autoMove(SCREENDIM, 5, 5)
