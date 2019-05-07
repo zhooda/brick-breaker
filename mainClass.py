@@ -91,7 +91,7 @@ class box(mainClass):
 		self.surface.fill(self.color)
 
 	def setColor(self, r, g, b):
-		mainClass.setColor(r, g, b)
+		mainClass.setColor(self, r, g, b)
 		self.surface.fill(self.color)
 
 	def getBox(self):
@@ -128,6 +128,12 @@ class box(mainClass):
 
 def getSpriteCollision(sprite1, sprite2):
 	if sprite2.getX() <= sprite1.getX() + sprite1.getWidth() <= sprite2.getX() + sprite2.getWidth() + sprite1.getWidth() and sprite2.getY() <= sprite1.getY() + sprite1.getHeight() <= sprite2.getY() + sprite2.getHeight() + sprite1.getHeight():
+		return True
+	else:
+		return False
+
+def getGameOver(sprite1, sprite2):
+	if sprite2.getY() > sprite1.getY() + sprite2.getHeight():
 		return True
 	else:
 		return False
