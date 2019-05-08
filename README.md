@@ -23,22 +23,21 @@ but we have no deployment strategies, so have at it.
 
 #### Prerequisites
 
-- Python 3.6.x +
-- Common Sense (any version)
-- Supported OS (ie. Linux, Windows, or macOS)
+- [Python 3.6.1 +](https://www.python.org/downloads/)
+- [Pygame 1.9.4 +](https://www.pygame.org/download.shtml)
 
 #### Installation & Usage
 
 ```
 # Clone the repository (stable branch)
-git clone -b master https://git.mikezhang.ca/z.hooda/multiDay01.git
+git clone -b master https://git.mikezhang.ca/z.hooda/brick-breaker.git
 # OR download zip file from BIG GREEN BUTTON
 
 # Go to the project directory
-cd ~/multiDay01
+cd ~/brick-breaker
 
-# Run python main
-python main.py
+# Run main script
+python3 main.py
 
 # Eat something to replenish your strength
 # Cloning git repos takes a lot of energy
