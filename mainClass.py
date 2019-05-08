@@ -132,6 +132,7 @@ def getSpriteCollision(sprite1, sprite2):
 	else:
 		return False
 
+
 def getGameOver(sprite1, sprite2):
 	if sprite2.getY() > sprite1.getY() + sprite2.getHeight():
 		return True
