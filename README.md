@@ -11,7 +11,7 @@ made using the pygame module, and object oriented programming in python.
 
 ### Flowchart
 
-<img src="/__media__/basic-flowchart.png" width="200" >
+<img src="/__media__/basic-flowchart.png" height="200" >
 
 ### Features
 
