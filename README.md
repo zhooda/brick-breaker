@@ -7,11 +7,11 @@ made using the pygame module, and object oriented programming in python.
 
 ### UML
 
-![alt text](__media__/mainClass-uml.png "mainClass UML table")
+![](__media__/uml-small.png)
 
 ### Flowchart
 
-<img src="https://git.mikezhang.ca/z.hooda/brick-breaker/__media__/basic-flowchart.png" width="200" height="200" >
+![](__media__/flowchart-small.png)
 
 ### Features
 
