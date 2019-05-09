@@ -45,10 +45,10 @@ python3 main.py
 
 ## Built With
 
-- [Atom](https://atom.io) - The superior text editor
+- [Sublime](https://atom.io)
+- Copious Amounts of Caffeine
 
 ## Contributors
-- Mr. Mike Zhang - File Reading Functions
 - Dhiraj Meenavilli - Debugging & Mental Support
 
 ## Author
